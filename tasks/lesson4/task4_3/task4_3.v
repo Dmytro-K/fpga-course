@@ -1,10 +1,10 @@
 module counter (
     input clk,
     input reset,
-    output reg a,
-    output reg b,
-    output reg c,
-    output reg d
+    output a,
+    output b,
+    output c,
+    output d
 );
     reg [3:0] cnt;
 
