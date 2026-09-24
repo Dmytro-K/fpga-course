@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_top_wrapper_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="ipif_pkg" />
+            <top_module name="lmb_bram_if_funcs" />
+            <top_module name="mdm_funcs" />
+            <top_module name="tb_top_wrapper" />
+            <top_module name="tc_types" />
+            <top_module name="vcomponents" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="2,576.001 ns"></ZoomEndTime>
+      <Cursor1Time time="0.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="276"></NameColumnWidth>
+      <ValueColumnWidth column_width="120"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="7" />
+   <wvobject type="logic" fp_name="/tb_top_wrapper/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_top_wrapper/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_top_wrapper/reset_rtl_0">
+      <obj_property name="ElementShortName">reset_rtl_0</obj_property>
+      <obj_property name="ObjectShortName">reset_rtl_0</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top_wrapper/btn_tri_io_bidir">
+      <obj_property name="ElementShortName">btn_tri_io_bidir[3:0]</obj_property>
+      <obj_property name="ObjectShortName">btn_tri_io_bidir[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top_wrapper/btn_tri_io">
+      <obj_property name="ElementShortName">btn_tri_io[3:0]</obj_property>
+      <obj_property name="ObjectShortName">btn_tri_io[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top_wrapper/led_tri_io_bidir">
+      <obj_property name="ElementShortName">led_tri_io_bidir[3:0]</obj_property>
+      <obj_property name="ObjectShortName">led_tri_io_bidir[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top_wrapper/led_tri_io">
+      <obj_property name="ElementShortName">led_tri_io[3:0]</obj_property>
+      <obj_property name="ObjectShortName">led_tri_io[3:0]</obj_property>
+   </wvobject>
+</wave_config>
