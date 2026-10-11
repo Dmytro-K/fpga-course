@@ -163,3 +163,23 @@ compile_commands.json
 **/platform/hw/sdt/
 
 **/*_vitis/*/build/
+
+# ---------------------------------------------------------------------------
+# Cadence Xcelium — робочі каталоги, конфіги, які генерує Vivado, аварійні дампи
+# ---------------------------------------------------------------------------
+xcelium.d/
+INCA_libs/
+*.shm/
+.bpad/
+.cxl.*
+bpad_*.err
+xm*_*.err
+xrun_*.err
+xrun.history
+xrun.key
+cds.lib
+hdl.var
+
+# Інше згенероване: резервні копії, лог схем Vivado
+*.bak
+nlviewcommon.logfile
