@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="task12_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="axi_bram_ctrl_funcs" />
+            <top_module name="axi_datamover_pkg" />
+            <top_module name="axi_dma_pkg" />
+            <top_module name="glbl" />
+            <top_module name="ipif_pkg" />
+            <top_module name="lmb_bram_if_funcs" />
+            <top_module name="mdm_funcs" />
+            <top_module name="task12_tb" />
+            <top_module name="vcomponents" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="7,066.701262 us"></ZoomStartTime>
+      <ZoomEndTime time="7,329.901263 us"></ZoomEndTime>
+      <Cursor1Time time="7,154.201262 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="276"></NameColumnWidth>
+      <ValueColumnWidth column_width="64"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="40" />
+   <wvobject type="array" fp_name="/task12_tb/i">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/task12_tb/data">
+      <obj_property name="ElementShortName">data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/task12_tb/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/task12_tb/rst">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/task12_tb/btn">
+      <obj_property name="ElementShortName">btn</obj_property>
+      <obj_property name="ObjectShortName">btn</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/task12_tb/data_available">
+      <obj_property name="ElementShortName">data_available</obj_property>
+      <obj_property name="ObjectShortName">data_available</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/task12_tb/data_to_module">
+      <obj_property name="ElementShortName">data_to_module[8:0]</obj_property>
+      <obj_property name="ObjectShortName">data_to_module[8:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/task12_tb/dut/design_1_i/axi4_full_ram_0/inst/s_axi_aclk">
+      <obj_property name="ElementShortName">s_axi_aclk</obj_property>
+      <obj_property name="ObjectShortName">s_axi_aclk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/task12_tb/dut/design_1_i/axi4_full_ram_0/inst/s_axi_aresetn">
+      <obj_property name="ElementShortName">s_axi_aresetn</obj_property>
+      <obj_property name="ObjectShortName">s_axi_aresetn</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/task12_tb/dut/design_1_i/axi4_full_ram_0/inst/s_axi_awaddr">
+      <obj_property name="ElementShortName">s_axi_awaddr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_awaddr[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/task12_tb/dut/design_1_i/axi4_full_ram_0/inst/s_axi_awlen">
+      <obj_property name="ElementShortName">s_axi_awlen[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_awlen[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/task12_tb/dut/design_1_i/axi4_full_ram_0/inst/s_axi_awsize">
+      <obj_property name="ElementShortName">s_axi_awsize[2:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_awsize[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/task12_tb/dut/design_1_i/axi4_full_ram_0/inst/s_axi_awburst">
+      <obj_property name="ElementShortName">s_axi_awburst[1:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_awburst[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/task12_tb/dut/design_1_i/axi4_full_ram_0/inst/s_axi_awvalid">
+      <obj_property name="ElementShortName">s_axi_awvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axi_awvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/task12_tb/dut/design_1_i/axi4_full_ram_0/inst/s_axi_awready">
+      <obj_property name="ElementShortName">s_axi_awready</obj_property>
+      <obj_property name="ObjectShortName">s_axi_awready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/task12_tb/dut/design_1_i/axi4_full_ram_0/inst/s_axi_wdata">
+      <obj_property name="ElementShortName">s_axi_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/task12_tb/dut/design_1_i/axi4_full_ram_0/inst/s_axi_wstrb">
+      <obj_property name="ElementShortName">s_axi_wstrb[3:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_wstrb[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/task12_tb/dut/design_1_i/axi4_full_ram_0/inst/s_axi_wlast">
+      <obj_property name="ElementShortName">s_axi_wlast</obj_property>
+      <obj_property name="ObjectShortName">s_axi_wlast</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/task12_tb/dut/design_1_i/axi4_full_ram_0/inst/s_axi_wvalid">
+      <obj_property name="ElementShortName">s_axi_wvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axi_wvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/task12_tb/dut/design_1_i/axi4_full_ram_0/inst/s_axi_wready">
+      <obj_property name="ElementShortName">s_axi_wready</obj_property>
+      <obj_property name="ObjectShortName">s_axi_wready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/task12_tb/dut/design_1_i/axi4_full_ram_0/inst/s_axi_bresp">
+      <obj_property name="ElementShortName">s_axi_bresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_bresp[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/task12_tb/dut/design_1_i/axi4_full_ram_0/inst/s_axi_bvalid">
+      <obj_property name="ElementShortName">s_axi_bvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axi_bvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/task12_tb/dut/design_1_i/axi4_full_ram_0/inst/s_axi_bready">
+      <obj_property name="ElementShortName">s_axi_bready</obj_property>
+      <obj_property name="ObjectShortName">s_axi_bready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/task12_tb/dut/design_1_i/axi4_full_ram_0/inst/s_axi_araddr">
+      <obj_property name="ElementShortName">s_axi_araddr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_araddr[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/task12_tb/dut/design_1_i/axi4_full_ram_0/inst/s_axi_arlen">
+      <obj_property name="ElementShortName">s_axi_arlen[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_arlen[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/task12_tb/dut/design_1_i/axi4_full_ram_0/inst/s_axi_arsize">
+      <obj_property name="ElementShortName">s_axi_arsize[2:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_arsize[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/task12_tb/dut/design_1_i/axi4_full_ram_0/inst/s_axi_arburst">
+      <obj_property name="ElementShortName">s_axi_arburst[1:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_arburst[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/task12_tb/dut/design_1_i/axi4_full_ram_0/inst/s_axi_arvalid">
+      <obj_property name="ElementShortName">s_axi_arvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axi_arvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/task12_tb/dut/design_1_i/axi4_full_ram_0/inst/s_axi_arready">
+      <obj_property name="ElementShortName">s_axi_arready</obj_property>
+      <obj_property name="ObjectShortName">s_axi_arready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/task12_tb/dut/design_1_i/axi4_full_ram_0/inst/s_axi_rdata">
+      <obj_property name="ElementShortName">s_axi_rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_rdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/task12_tb/dut/design_1_i/axi4_full_ram_0/inst/s_axi_rlast">
+      <obj_property name="ElementShortName">s_axi_rlast</obj_property>
+      <obj_property name="ObjectShortName">s_axi_rlast</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/task12_tb/dut/design_1_i/axi4_full_ram_0/inst/s_axi_rresp">
+      <obj_property name="ElementShortName">s_axi_rresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_rresp[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/task12_tb/dut/design_1_i/axi4_full_ram_0/inst/s_axi_rvalid">
+      <obj_property name="ElementShortName">s_axi_rvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axi_rvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/task12_tb/dut/design_1_i/axi4_full_ram_0/inst/s_axi_rready">
+      <obj_property name="ElementShortName">s_axi_rready</obj_property>
+      <obj_property name="ObjectShortName">s_axi_rready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/task12_tb/dut/design_1_i/axi4_full_ram_0/inst/wstate">
+      <obj_property name="ElementShortName">wstate[1:0]</obj_property>
+      <obj_property name="ObjectShortName">wstate[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/task12_tb/dut/design_1_i/axi4_full_ram_0/inst/waddr_cur">
+      <obj_property name="ElementShortName">waddr_cur[15:0]</obj_property>
+      <obj_property name="ObjectShortName">waddr_cur[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/task12_tb/dut/design_1_i/axi4_full_ram_0/inst/wburst_cnt">
+      <obj_property name="ElementShortName">wburst_cnt[7:0]</obj_property>
+      <obj_property name="ObjectShortName">wburst_cnt[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/task12_tb/dut/design_1_i/axi4_full_ram_0/inst/rstate">
+      <obj_property name="ElementShortName">rstate[1:0]</obj_property>
+      <obj_property name="ObjectShortName">rstate[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/task12_tb/dut/design_1_i/axi4_full_ram_0/inst/raddr_cur">
+      <obj_property name="ElementShortName">raddr_cur[15:0]</obj_property>
+      <obj_property name="ObjectShortName">raddr_cur[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/task12_tb/dut/design_1_i/axi4_full_ram_0/inst/rburst_cnt">
+      <obj_property name="ElementShortName">rburst_cnt[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rburst_cnt[7:0]</obj_property>
+   </wvobject>
+</wave_config>

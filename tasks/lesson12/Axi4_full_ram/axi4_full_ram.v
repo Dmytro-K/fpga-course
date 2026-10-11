@@ -1,3 +1,4 @@
+`timescale 1ns / 1ps
 // axi4_full_ram.v
 // Простий AXI4 (Full) slave. Порти названі за офіційною конвенцією
 // Vivado (interface_name + "_" + AXI signal name, тут "s_axi_..."),

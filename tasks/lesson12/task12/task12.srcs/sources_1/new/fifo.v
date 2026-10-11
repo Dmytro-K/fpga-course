@@ -33,27 +33,27 @@ module fifo #(
     output reg ready,
     input wire already_read
     );
-    
+
     reg [DEPTH_LOG - 1:0] tail;
     reg [DEPTH_LOG:0] len;
     reg [7:0] mem[0:(1 << DEPTH_LOG) - 1];
-    
+
     reg wen_sync_1;
     reg wen_sync_2;
 
     reg already_written;
     reg read_data_ready;
-    
+
     wire [DEPTH_LOG - 1:0] wr_addr;
-    assign wr_addr = tail + len[DEPTH_LOG - 1:0);
-    
+    assign wr_addr = tail + len[DEPTH_LOG - 1:0];
+
     assign data_exist = len != 0;
 
     always @(posedge clk) begin
         wen_sync_1 <= wen;
         wen_sync_2 <= wen_sync_1;
     end
-    
+
     always @(posedge clk) begin
         if (rst) begin
             tail <= 0;
@@ -94,6 +94,4 @@ module fifo #(
                 ready <= 1;
         end
     end
-    
-    
 endmodule
