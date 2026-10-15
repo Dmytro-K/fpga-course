@@ -183,3 +183,11 @@ hdl.var
 # Інше згенероване: резервні копії, лог схем Vivado
 *.bak
 nlviewcommon.logfile
+
+**/*_vitis/*/*/hls/*
+!**/*_vitis/*/*/hls/impl/
+**/*_vitis/*/*/hls/impl/*
+!**/*_vitis/*/*/hls/impl/ip/
+**/*_vitis/*/*/reports/
+**/*_vitis/*/*/*.hls*_summary
+**/*_vitis/*/*/*.zip
