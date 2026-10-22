@@ -154,13 +154,18 @@ _ide/
 .rigel_lopper/
 compile_commands.json
 .clangd
+.idea/
 
-**/platform/*/standalone_*/
-**/platform/zynq_fsbl/
-**/platform/export/
-**/platform/resources/
-**/platform/logs/
-**/platform/hw/sdt/
+# Vitis platform component (any name: platform, platform1, ...).
+# Keep: vitis-comp.json, hw/*.xsa. Everything below is regenerated on platform build.
+**/*_vitis/*/*/standalone_*/
+**/*_vitis/*/zynq_fsbl/
+**/*_vitis/*/zynqmp_fsbl/
+**/*_vitis/*/zynqmp_pmufw/
+**/*_vitis/*/export/
+**/*_vitis/*/resources/
+**/*_vitis/*/logs/
+**/*_vitis/*/hw/sdt/
 
 **/*_vitis/*/build/
 
