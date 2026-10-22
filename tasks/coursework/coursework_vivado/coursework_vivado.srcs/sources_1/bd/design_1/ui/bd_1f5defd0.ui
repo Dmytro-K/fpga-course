@@ -1,0 +1,49 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.0",
+   "Default View_TopLeft":"-447,-1377",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.8.0 2024-04-26 e1825d835c VDI=44 GEI=38 GUI=JA:24.0 TLS
+#  -string -flagsOSRD
+preplace port port-id_mic_sck -pg 1 -lvl 6 -x 2270 -y -810 -defaultsOSRD
+preplace port port-id_mic_ws -pg 1 -lvl 6 -x 2270 -y -770 -defaultsOSRD
+preplace port port-id_mic_sd -pg 1 -lvl 0 -x 0 -y -810 -defaultsOSRD
+preplace port port-id_sys_clock -pg 1 -lvl 0 -x 0 -y -750 -defaultsOSRD
+preplace port port-id_reset -pg 1 -lvl 0 -x 0 -y -680 -defaultsOSRD
+preplace portBus led -pg 1 -lvl 6 -x 2270 -y -580 -defaultsOSRD
+preplace inst smartconnect_0 -pg 1 -lvl 3 -x 1190 -y -820 -defaultsOSRD
+preplace inst i2s_input_0 -pg 1 -lvl 4 -x 1560 -y -800 -defaultsOSRD
+preplace inst led_0 -pg 1 -lvl 4 -x 1560 -y -600 -defaultsOSRD
+preplace inst xfft_0 -pg 1 -lvl 5 -x 2050 -y -360 -defaultsOSRD
+preplace inst axi_fifo_mm_s_0 -pg 1 -lvl 5 -x 2050 -y -670 -defaultsOSRD
+preplace inst microblaze_0 -pg 1 -lvl 2 -x 700 -y -500 -defaultsOSRD
+preplace inst microblaze_0_local_memory -pg 1 -lvl 3 -x 1190 -y -490 -defaultsOSRD
+preplace inst mdm_1 -pg 1 -lvl 1 -x 310 -y -500 -defaultsOSRD
+preplace inst clk_wiz_1 -pg 1 -lvl 2 -x 700 -y -760 -defaultsOSRD
+preplace inst rst_clk_wiz_1_100M -pg 1 -lvl 3 -x 1190 -y -660 -defaultsOSRD
+preplace netloc clk_wiz_1_clk_out1 1 1 4 470 -410 1000 -910 1410 -680 1840
+preplace netloc clk_wiz_1_locked 1 2 1 930 -750n
+preplace netloc i2s_input_0_mic_sck 1 4 2 N -810 N
+preplace netloc i2s_input_0_mic_ws 1 4 2 N -790 2240
+preplace netloc led_0_leds 1 4 2 1690 -560 2240
+preplace netloc mdm_1_debug_sys_rst 1 1 2 460 -640 N
+preplace netloc mic_sd_1 1 0 4 N -810 420 -930 N -930 1430J
+preplace netloc reset_1 1 0 3 NJ -680 NJ -680 N
+preplace netloc rst_clk_wiz_1_100M_bus_struct_reset 1 2 2 1010 -920 1370
+preplace netloc rst_clk_wiz_1_100M_mb_reset 1 1 3 460 -400 NJ -400 1360
+preplace netloc rst_clk_wiz_1_100M_peripheral_aresetn 1 2 3 1020 -900 1380 -710 1850
+preplace netloc sys_clock_1 1 0 2 NJ -750 NJ
+preplace netloc axi_fifo_mm_s_0_AXI_STR_TXD 1 4 2 1860J -780 2230
+preplace netloc microblaze_0_M_AXI_DP 1 2 1 940 -840n
+preplace netloc microblaze_0_debug 1 1 1 N -510
+preplace netloc microblaze_0_dlmb_1 1 2 1 N -520
+preplace netloc microblaze_0_ilmb_1 1 2 1 N -500
+preplace netloc smartconnect_0_M00_AXI 1 3 1 1420 -840n
+preplace netloc smartconnect_0_M01_AXI 1 3 1 1400 -820n
+preplace netloc smartconnect_0_M02_AXI 1 3 2 1390 -700 N
+preplace netloc xfft_0_M_AXIS_DATA 1 4 2 1870 -480 2230
+levelinfo -pg 1 0 310 700 1190 1560 2050 2270
+pagesize -pg 1 -db -bbox -sgen -140 -1610 2380 530
+"
+}
+0

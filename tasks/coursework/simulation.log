@@ -1,0 +1,43 @@
+Check at timestamp:     1522711 for led:           0 SUCCESS
+Check at timestamp:     1522711 for led:           1 SUCCESS
+Check at timestamp:     1522711 for led:           2 SUCCESS
+Check at timestamp:     1522711 for led:           3 SUCCESS
+Check at timestamp:     1522711 for led:           4 SUCCESS
+Check at timestamp:     2545711 for led:           0 SUCCESS
+Check at timestamp:     2545711 for led:           1 SUCCESS
+Check at timestamp:     2545711 for led:           2 SUCCESS
+Check at timestamp:     2545711 for led:           3 SUCCESS
+Check at timestamp:     2545711 for led:           4 SUCCESS
+Check at timestamp:     3568711 for led:           0 SUCCESS
+Check at timestamp:     3568711 for led:           1 SUCCESS
+Check at timestamp:     3568711 for led:           2 SUCCESS
+Check at timestamp:     3568711 for led:           3 SUCCESS
+Check at timestamp:     3568711 for led:           4 SUCCESS
+Check at timestamp:     4591711 for led:           0 SUCCESS
+Check at timestamp:     4591711 for led:           1 SUCCESS
+Check at timestamp:     4591711 for led:           2 SUCCESS
+Check at timestamp:     4591711 for led:           3 SUCCESS
+Check at timestamp:     4591711 for led:           4 SUCCESS
+Check at timestamp:     5614711 for led:           0 SUCCESS
+Check at timestamp:     5614711 for led:           1 SUCCESS
+Check at timestamp:     5614711 for led:           2 SUCCESS
+Check at timestamp:     5614711 for led:           3 SUCCESS
+Check at timestamp:     5614711 for led:           4 SUCCESS
+Check at timestamp:     6509836 for led:           0 SUCCESS
+Check at timestamp:     6509836 for led:           1 SUCCESS
+Check at timestamp:     6509836 for led:           2 SUCCESS
+Check at timestamp:     6509836 for led:           3 SUCCESS
+Check at timestamp:     6509836 for led:           4 SUCCESS
+Check at timestamp:     7532836 for led:           0 SUCCESS
+Check at timestamp:     7532836 for led:           1 SUCCESS
+Check at timestamp:     7532836 for led:           2 SUCCESS
+Check at timestamp:     7532836 for led:           3 SUCCESS
+Check at timestamp:     7532836 for led:           4 SUCCESS
+Check at timestamp:     8555836 for led:           0 SUCCESS
+Check at timestamp:     8555836 for led:           1 SUCCESS
+Check at timestamp:     8555836 for led:           2 SUCCESS
+Check at timestamp:     8555836 for led:           3 SUCCESS
+Check at timestamp:     8555836 for led:           4 SUCCESS
+Test SUCCESS
+$finish called at time : 68446688 ns : File "/home/dima/repos/git/fpga-course/tasks/coursework/coursework_vivado/coursework_vivado.srcs/sim_1/new/design_1_tb.v" Line 188
+run: Time (s): cpu = 00:05:44 ; elapsed = 00:33:23 . Memory (MB): peak = 12797.992 ; gain = 0.000 ; free physical = 12993 ; free virtual = 61363
